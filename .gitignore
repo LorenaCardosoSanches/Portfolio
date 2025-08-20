@@ -1,0 +1,22 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Node (se usar ferramentas no futuro)
+node_modules/
+dist/
+build/
+
+# Env (se usar chaves locais em demos)
+.env
+.env.*
