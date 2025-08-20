@@ -145,11 +145,11 @@ toggleButton.addEventListener("click", () => {
 
   if (isLight) {
     // Se estiver no modo claro, exibe o ícone do sol
-    modeIcon.src = "../public/icons/sun.svg";
+    modeIcon.src = "public/icons/sun.svg";
     modeIcon.alt = "Modo claro";
   } else {
     // Se estiver no modo escuro, exibe o ícone da lua
-    modeIcon.src = "../public/icons/moon-white.svg";
+    modeIcon.src = "public/icons/moon-white.svg";
     modeIcon.alt = "Modo escuro";
   }
 
