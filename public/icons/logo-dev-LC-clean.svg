@@ -1,0 +1,21 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Logo dev LC minimalista</title>
+  <desc id="desc">Iniciais L e C em roxo, estrela acima e detalhe tech abaixo.</desc>
+
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#2a0b3a" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Estrela -->
+  <path d="M128 40l6 18 19 5-19 5-6 18-6-18-19-5 19-5 6-18z" fill="#E8E0FF" filter="url(#softShadow)"/>
+
+  <!-- Iniciais LC -->
+  <text x="50%" y="58%" text-anchor="middle" fill="#E8E0FF" font-family="serif" font-size="80" font-weight="bold" filter="url(#softShadow)">LC</text>
+
+  <!-- Detalhe chip abaixo -->
+  <rect x="118" y="186" width="20" height="12" rx="3" fill="#6C52E6"/>
+  <circle cx="128" cy="192" r="2" fill="#E8E0FF"/>
+  <circle cx="138" cy="192" r="2" fill="#E8E0FF"/>
+</svg>
